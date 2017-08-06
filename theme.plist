@@ -10,14 +10,14 @@
 	<dict>
 		<key>Background</key>
 		<dict>
+			<key>Color</key>
+			<string>0xF3F3F380</string>
 			<key>Dark</key>
 			<true/>
 			<key>Path</key>
 			<string>background.png</string>
-			<key>Sharp</key>
-			<string>0xFF</string>
 			<key>Type</key>
-			<string>Scale</string>
+			<string>Tile</string>
 		</dict>
 		<key>Badges</key>
 		<dict>
@@ -32,8 +32,14 @@
 		<dict>
 			<key>Banner</key>
 			<false/>
+			<key>Functions</key>
+			<true/>
 			<key>Help</key>
 			<false/>
+			<key>Label</key>
+			<true/>
+			<key>MenuTitle</key>
+			<true/>
 			<key>Revision</key>
 			<false/>
 		</dict>
@@ -54,6 +60,8 @@
 			<string>select_trans_big.png</string>
 			<key>Color</key>
 			<string>0xF3F3F380</string>
+			<key>OnTop</key>
+			<false/>
 			<key>Small</key>
 			<string>select_trans_small.png</string>
 		</dict>
